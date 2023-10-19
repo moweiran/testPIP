@@ -112,7 +112,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: f1e521ed867993ca66319cdd0ea408dd540da020
+      resolved-ref: a0e8dc67197de82e5c3bca822cf83b9defd0f4c5
       url: "git@github.com:moweiran/flutter_float_window.git"
     source: git
     version: "0.0.1"
@@ -125,7 +125,7 @@ packages:
     source: hosted
     version: "1.8.3"
   permission_handler:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: permission_handler
       sha256: "284a66179cabdf942f838543e10413246f06424d960c92ba95c84439154fcac8"
