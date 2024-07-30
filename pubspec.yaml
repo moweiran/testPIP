@@ -39,6 +39,7 @@ dependencies:
     git:
       url: git@github.com:moweiran/flutter_float_window.git
   permission_handler: ^11.0.1
+  agora_rtc_engine: ^6.3.2
 
 dev_dependencies:
   flutter_test:

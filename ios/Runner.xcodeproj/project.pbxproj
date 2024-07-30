@@ -10,6 +10,12 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		48471D292C58F0ED00C6A9D8 /* TestPiPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D282C58F0ED00C6A9D8 /* TestPiPViewController.swift */; };
+		48471D2C2C58F28100C6A9D8 /* Sizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D2B2C58F28100C6A9D8 /* Sizer.swift */; };
+		48471D2F2C58F40000C6A9D8 /* PictureInPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D2D2C58F40000C6A9D8 /* PictureInPictureView.swift */; };
+		48471D302C58F40000C6A9D8 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D2E2C58F40000C6A9D8 /* UserView.swift */; };
+		48471D332C58F69000C6A9D8 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D312C58F69000C6A9D8 /* UIView+.swift */; };
+		48471D342C58F69000C6A9D8 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48471D322C58F69000C6A9D8 /* UIColor+.swift */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		7A7D59AC1600D730DEF21559 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF01C3BBD1D63E75E93E9 /* Pods_Runner.framework */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -49,6 +55,12 @@
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		48471D282C58F0ED00C6A9D8 /* TestPiPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPiPViewController.swift; sourceTree = "<group>"; };
+		48471D2B2C58F28100C6A9D8 /* Sizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizer.swift; sourceTree = "<group>"; };
+		48471D2D2C58F40000C6A9D8 /* PictureInPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureInPictureView.swift; sourceTree = "<group>"; };
+		48471D2E2C58F40000C6A9D8 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		48471D312C58F69000C6A9D8 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		48471D322C58F69000C6A9D8 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		5512BCFF028F4C960BAD9ACD /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5897B95A48CB5040DB6A781E /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -95,6 +107,33 @@
 			path = RunnerTests;
 			sourceTree = "<group>";
 		};
+		48471D262C58F09700C6A9D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48471D282C58F0ED00C6A9D8 /* TestPiPViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		48471D272C58F0D300C6A9D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48471D2D2C58F40000C6A9D8 /* PictureInPictureView.swift */,
+				48471D2E2C58F40000C6A9D8 /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48471D2A2C58F26D00C6A9D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48471D322C58F69000C6A9D8 /* UIColor+.swift */,
+				48471D312C58F69000C6A9D8 /* UIView+.swift */,
+				48471D2B2C58F28100C6A9D8 /* Sizer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		727A0EA26B11BAF2AB8DD3FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +157,9 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				48471D2A2C58F26D00C6A9D8 /* Utils */,
+				48471D272C58F0D300C6A9D8 /* Views */,
+				48471D262C58F09700C6A9D8 /* ViewController */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
@@ -198,6 +240,7 @@
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				8F5132BB882C56D179C28BB4 /* [CP] Embed Pods Frameworks */,
+				84A08DEAF4BE213438E1D52A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +327,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		84A08DEAF4BE213438E1D52A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		8F5132BB882C56D179C28BB4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -376,8 +436,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48471D2F2C58F40000C6A9D8 /* PictureInPictureView.swift in Sources */,
+				48471D342C58F69000C6A9D8 /* UIColor+.swift in Sources */,
+				48471D302C58F40000C6A9D8 /* UserView.swift in Sources */,
+				48471D332C58F69000C6A9D8 /* UIView+.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				48471D292C58F0ED00C6A9D8 /* TestPiPViewController.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				48471D2C2C58F28100C6A9D8 /* Sizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
